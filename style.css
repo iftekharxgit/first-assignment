@@ -33,14 +33,20 @@
 /* Hero section style */
 
 .hero {
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./assets/banner.jpg);
+  background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(./assets/banner.jpg);
   /* Here i took help from chatgpt to set the overly here */
   height: 700px;
   background-size: cover;
   background-position: center;
+   background-repeat: no-repeat;
+
   text-align: center;
   color: white;
   padding-top: 200px;
+}
+.hero-content{
+
+
 }
 .hero-content h1{
     font-size: 80px;
@@ -52,5 +58,57 @@
     margin: 20px auto;
 }
 .hero-content button{
-    margin-top: 400px;
+    
+margin-top: 300px;
+}
+
+/* Speakers Section */
+
+.speakers{
+  
+
+}
+.speakers-bio{
+     display: grid;
+     grid-template-columns: repeat(2,auto);
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin:50px auto;
+    padding: 40px;
+    gap: 30px;
+}
+ .speakers h1{
+    text-align: center;
+    color: #000102FF;;
+    font-size: 56px;
+    font-weight: bold;
+    padding-top:40px;
+ }
+ .speakers-bio img {
+   
+ }
+ .speakers-bio h5{
+    
+    padding: 15px;
+    color: #2563ebFF;
+    font-size: 17px;
+    font-weight: 600px;
+ }
+ .speakers-bio h2{
+    color:  #0d1b2aFF;
+    font-size: 27px;
+    font-weight: 700px;
+    padding-left: 15px;
+ }
+ .speakers-bio p{
+    color: #575757FF;
+    font-size: 20px;
+    font-weight: 400px;
+    padding: 15px;
+ }
+.bio-box{
+    box-shadow: 0 0 2px ;
+    border-radius: 10px;
+  overflow: hidden;
 }
