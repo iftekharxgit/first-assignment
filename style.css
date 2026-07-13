@@ -29,6 +29,10 @@
     border-radius: 8px;
     cursor: pointer;
 }
+.common-button:hover{
+  background-color: black;
+     transition: .4s ease;
+}
 
 /* Hero section style */
 
@@ -176,13 +180,17 @@ margin-top: 300px;
  
   border-radius: 8px;
   font-weight: bold;
+   transition: .4s ease;
 }
 .standard-package{
   background-color: white;
   border: 1.5px solid blue;
   color: #1D4ED8;
   padding: 8px 60px;
-
+   cursor: pointer;
+}
+.standard-package:hover{
+  background-color: coral;
 }
 .pro-package{
   padding: 10px 60px;
@@ -190,11 +198,20 @@ margin-top: 300px;
   border: none;
  background-color: blue;
   color: white;
+  cursor: pointer;
+}
+.pro-package:hover{
+ 
+   background-color: gold;
 }
 .contact-us{
      background-color: white;
      padding: 10px 60px;
+      cursor: pointer;
      
+}
+.contact-us:hover{
+  background-color: rgb(245, 31, 149);
 }
 .pro-price-box{
   background-color: #0D1B2A;
@@ -224,3 +241,24 @@ margin-top: 300px;
   color: #575757;
 }
 /* Pricing section end */
+
+/* Footer Section Start  */
+footer{
+  height: 110px;
+  background-color: #0D1B2A;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.copyright {
+  
+  color: white;
+  opacity: 40%;
+  font-size: 10px;
+}
+.copyright ul{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
