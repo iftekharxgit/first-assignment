@@ -18,245 +18,236 @@
 }
 .nav-middle ul li a {
   text-decoration: none;
-}
+} 
+/* the text decoration none style not working on git hub live link.but working in my live server when i run it */
 
-.common-button{
-  background-color:#1D4ED8;
-    color: white;
-    border: none;
-    padding: 15px 30px;
-    font-size: 18px;
-    border-radius: 8px;
-    cursor: pointer;
+
+.common-button {
+  background-color: #1d4ed8;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
 }
-.common-button:hover{
+.common-button:hover {
   background-color: black;
-     transition: .4s ease;
+  transition: 0.4s ease;
 }
 
 /* Hero section style */
 
 .hero {
-  background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(./assets/banner.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./assets/banner.jpg);
   /* Here i took help from chatgpt to set the overly here */
   height: 700px;
   background-size: cover;
   background-position: center;
-   background-repeat: no-repeat;
+  background-repeat: no-repeat;
 
   text-align: center;
   color: white;
   padding-top: 200px;
 }
-.hero-content{
-
-
+.hero-content {
 }
-.hero-content h1{
-    font-size: 80px;
-    font-weight: bold;
-
+.hero-content h1 {
+  font-size: 80px;
+  font-weight: bold;
 }
-.hero-content p{
-    font-size: 22px;
-    margin: 20px auto;
+.hero-content p {
+  font-size: 22px;
+  margin: 20px auto;
 }
-.hero-content button{
-    
-margin-top: 300px;
+.hero-content button {
+  margin-top: 300px;
 }
 
 /* Speakers Section */
 
-.speakers{
-  
-
+.speakers-bio {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 40px;
+  gap: 30px;
 }
-.speakers-bio{
-     display: grid;
-     grid-template-columns: repeat(2,auto);
-    justify-content: center;
-    align-items: center;
-    max-width: 1200px;
-    margin:50px auto;
-    padding: 40px;
-    gap: 30px;
+.speakers h1 {
+  text-align: center;
+  color: #000102ff;
+  font-size: 56px;
+  font-weight: bold;
+  padding-top: 40px;
 }
- .speakers h1{
-    text-align: center;
-    color: #000102FF;;
-    font-size: 56px;
-    font-weight: bold;
-    padding-top:40px;
- }
- .speakers-bio img {
-   
- }
- .speakers-bio h5{
-    
-    padding: 15px;
-    color: #2563ebFF;
-    font-size: 17px;
-    font-weight: 600px;
- }
- .speakers-bio h2{
-    color:  #0d1b2aFF;
-    font-size: 27px;
-    font-weight: 700px;
-    padding-left: 15px;
- }
- .speakers-bio p{
-    color: #575757FF;
-    font-size: 20px;
-    font-weight: 400px;
-    padding: 15px;
- }
-.bio-box{
-    box-shadow: 0 0 2px ;
-    border-radius: 10px;
+.speakers-bio img {
+}
+.speakers-bio h5 {
+  padding: 15px;
+  color: #2563ebff;
+  font-size: 17px;
+  font-weight: 600px;
+}
+.speakers-bio h2 {
+  color: #0d1b2aff;
+  font-size: 27px;
+  font-weight: 700px;
+  padding-left: 15px;
+}
+.speakers-bio p {
+  color: #575757ff;
+  font-size: 20px;
+  font-weight: 400px;
+  padding: 15px;
+}
+.bio-box {
+  box-shadow: 0 0 2px;
+  border-radius: 10px;
   overflow: hidden;
 }
 
 /* Pricing section start */
 
-.price-card{
+.price-card {
   display: flex;
-   justify-content: center;
-    align-items: center;
-    max-width: 1200px;
-    margin:50px auto;
-    padding: 40px;
-    gap: 30px;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 40px;
+  gap: 30px;
 }
-.price-box{
- 
- 
- height: 350px;
- width: 250px;
+.price-box {
+  height: 350px;
+  width: 250px;
   box-shadow: 0 0 2px;
   overflow: hidden;
   border-radius: 10px;
 }
-.price-box ul li{
+.price-box ul li {
   text-align: left;
-  padding: 5px
-  ;
-   }
-.price-box ul{
-  margin-top: 15px;
-
+  padding: 5px;
 }
- 
+.price-box ul {
+  margin-top: 15px;
+}
 
 .package-type {
   color: #888888;
   font-size: 13px;
   font-weight: 600px;
+}
 
-} 
-
-.price-box{
-  padding-left:30px ;
+.price-box {
+  padding-left: 30px;
   padding-top: 15px;
   padding-bottom: 50px;
 }
-.price-box h1{
+.price-box h1 {
   font-size: 40px;
   font-weight: bold;
-  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
 }
-.user{
+.user {
   color: #888888;
 }
 
-.buy-button{
-  
+.buy-button {
   text-align: center;
   padding-top: 30px;
- margin-right: 30px;
- 
+  margin-right: 30px;
 }
-.buy-button button{
- 
+.buy-button button {
   border-radius: 8px;
   font-weight: bold;
-   transition: .4s ease;
+  transition: 0.4s ease;
 }
-.standard-package{
+.standard-package {
   background-color: white;
   border: 1.5px solid blue;
-  color: #1D4ED8;
+  color: #1d4ed8;
   padding: 8px 60px;
-   cursor: pointer;
+  cursor: pointer;
 }
-.standard-package:hover{
+.standard-package:hover {
   background-color: coral;
 }
-.pro-package{
+.pro-package {
   padding: 10px 60px;
- 
+
   border: none;
- background-color: blue;
+  background-color: blue;
   color: white;
   cursor: pointer;
 }
-.pro-package:hover{
- 
-   background-color: gold;
+.pro-package:hover {
+  background-color: gold;
 }
-.contact-us{
-     background-color: white;
-     padding: 10px 60px;
-      cursor: pointer;
-     
+.contact-us {
+  background-color: white;
+  padding: 10px 60px;
+  cursor: pointer;
 }
-.contact-us:hover{
+.contact-us:hover {
   background-color: rgb(245, 31, 149);
 }
-.pro-price-box{
-  background-color: #0D1B2A;
+.pro-price-box {
+  background-color: #0d1b2a;
 }
 .pro-price-box ul li {
   color: aliceblue;
 }
-.pro-price-box h1{
+.pro-price-box h1 {
   color: white;
 }
-.for-pro{
-  color: #93C5FD;
+.for-pro {
+  color: #93c5fd;
 }
-.price-headline{
+.price-headline {
   text-align: center;
-    max-width: 1200px;
-    margin:20px auto;
-   
-
+  max-width: 1200px;
+  margin: 20px auto;
 }
-.price-headline h1{
+.price-headline h1 {
   font-size: 50px;
-  color:#0D1B2A ;
+  color: #0d1b2a;
   padding-bottom: 10px;
 }
-.price-headline p{
+.price-headline p {
   color: #575757;
 }
 /* Pricing section end */
 
 /* Footer Section Start  */
-footer{
+footer {
   height: 110px;
-  background-color: #0D1B2A;
+  background-color: #0d1b2a;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 .copyright {
-  
   color: white;
   opacity: 40%;
   font-size: 10px;
 }
-.copyright ul{
+.copyright ul {
   display: flex;
   list-style: none;
   gap: 20px;
@@ -265,47 +256,46 @@ footer{
 
 /* Missing section start */
 .schedule {
-    padding: 80px 100px;
-    background-color: #f8f9fc;
+  padding: 80px 100px;
+  background-color: #f8f9fc;
 }
 
 .schedule-title {
-    text-align: center;
-    font-size: 36px;
-    margin-bottom: 10px;
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 10px;
 }
 
 .schedule-description {
-    text-align: center;
-    color: gray;
-    margin-bottom: 40px;
+  text-align: center;
+  color: gray;
+  margin-bottom: 40px;
 }
 
 .schedule-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
 
 .schedule-card {
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    border-left: 5px solid #4f46e5;
-   
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border-left: 5px solid #4f46e5;
 }
 
 .schedule-card h3 {
-    color: #4f46e5;
-    margin-bottom: 10px;
+  color: #4f46e5;
+  margin-bottom: 10px;
 }
 
 .schedule-card h4 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .schedule-card p {
-    color: gray;
+  color: gray;
 }
 
 /* Missing Section end */
